@@ -7,6 +7,7 @@
 
 .main {
     background-color: rgb(32, 19, 19);
+    padding-bottom: 50px;
 }
 
 .navbar {
@@ -203,7 +204,8 @@ line-height: 23.76px;
     background-color:#2F1C1C;
     width: auto;
     height: auto;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
     margin-top: 100px;
 }
 .hero3 .hero3main{
@@ -243,9 +245,373 @@ color: rgb(234, 230, 228);
     border-top: none;
     border-left: none;
     border-right: none;
-    border-bottom: 1px solid #D5D0CF;
+    border-bottom: 1px solid #E03131;
     background-color: transparent;
     margin-left: 0px;
     padding-right: 300px;
 }
-input:
+.hero3 .hero3main .parentq .qub2 input{
+    background-color: #E03131;
+    border: none;
+    padding: 20px 40px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-family: "Jet Brains", Monaco, Consolas, "Lucida Console", monospace;
+font-size: 18px;
+font-weight: 700;
+line-height: 18px;
+color: rgb(255, 255, 255);
+}
+.hero3 .hero3main .parentq .qub2 input:hover{
+    border:1px solid black;
+    box-shadow: #E03131 0px 0px 10px 0px;
+}
+.hero3 .parentq1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    background-color: rgb(32, 19, 19);
+}
+.hero3 .parentq1 div{
+     margin:10px 50px;
+}
+.hero3 .parentq1 .qub3 p{
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 30.6px;
+color: rgb(234, 230, 228);
+}
+.hero3 .parentq1 .qub4 a{
+    color:#D0C590;
+    font-family: "Jet Brains", Monaco, Consolas, "Lucida Console", monospace;
+font-size: 18px;
+font-weight: 700;
+line-height: 30.6px;
+    text-decoration: underline dotted;
+}
+.hero3 .parentq1 .qub4 a:hover{
+    font-family: "Jet Brains", Monaco, Consolas, "Lucida Console", monospace;
+font-size: 18px;
+font-weight: 700;
+line-height: 30.6px;
+color: rgb(255, 199, 38);
+    text-decoration: none;
+}
+.hero4{
+    margin-top: 50px;
+}
+.hero4 h2{
+     margin-top: 20px;
+     color:#D5D0CF;
+    font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 31.5px;
+font-weight: 700;
+line-height: 36.225px;
+}
+.hero4 h2:hover{
+    color: rgb(255, 199, 38);
+}
+.hero4 p{
+    padding: 10px 0px;
+}
+.hero4 p a{
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15.84px;
+font-weight: 700;
+line-height: 23.76px;
+    color:#D5D0CF;
+    text-decoration:none;
+}
+.hero4 a:hover{
+    color:rgb(255, 199, 38)
+}
+.hero4 p span{
+    color:#D0C590;
+}
+.hero4 p span:hover{
+    color: rgb(255, 199, 38);
+    cursor: pointer;
+}
+.hero5{
+    margin-top: 50px;
+}
+.hero5 h2{
+     margin-top: 20px;
+     color:#D5D0CF;
+    font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 31.5px;
+font-weight: 700;
+line-height: 36.225px;
+}
+.hero5 h2:hover{
+    color: rgb(255, 199, 38);
+}
+.hero5 p{
+    padding: 10px 0px;
+}
+.hero5 p a{
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15.84px;
+font-weight: 700;
+line-height: 23.76px;
+    color:#D5D0CF;
+    text-decoration:none;
+}
+.hero5 a:hover{
+    color:rgb(255, 199, 38)
+}
+.hero5 p span{
+    color:#D0C590;
+}
+.hero5 p span:hover{
+    color: rgb(255, 199, 38);
+    cursor: pointer;
+}
+.hero6{
+    margin-top: 50px;
+}
+.hero6 h2{
+     margin-top: 20px;
+     color:#D5D0CF;
+    font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 31.5px;
+font-weight: 700;
+line-height: 36.225px;
+}
+.hero6 h2:hover{
+    color: rgb(255, 199, 38);
+}
+.hero6 p{
+    padding: 10px 0px;
+}
+.hero6 p a{
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15.84px;
+font-weight: 700;
+line-height: 23.76px;
+    color:#D5D0CF;
+    text-decoration:none;
+}
+.hero6 a:hover{
+    color:rgb(255, 199, 38)
+}
+.hero6 p span{
+    color:#D0C590;
+}
+.hero6 p span:hover{
+    color: rgb(255, 199, 38);
+    cursor: pointer;
+}
+.hero7{
+    margin-top: 50px;
+}
+.hero7 h2{
+     margin-top: 20px;
+     color:#D5D0CF;
+    font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 31.5px;
+font-weight: 700;
+line-height: 36.225px;
+}
+.hero7 h2:hover{
+    color: rgb(255, 199, 38);
+}
+.hero7 p{
+    padding: 10px 0px;
+}
+.hero7 p a{
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15.84px;
+font-weight: 700;
+line-height: 23.76px;
+    color:#D5D0CF;
+    text-decoration:none;
+}
+.hero7 a:hover{
+    color:rgb(255, 199, 38)
+}
+.hero7 p span{
+    color:#D0C590;
+}
+.hero7 p span:hover{
+    color: rgb(255, 199, 38);
+    cursor: pointer;
+}
+.hero8{
+    margin-top: 50px;
+}
+.hero8 h2{
+     margin-top: 20px;
+     color:#D5D0CF;
+    font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 31.5px;
+font-weight: 700;
+line-height: 36.225px;
+}
+.hero8 h2:hover{
+    color: rgb(255, 199, 38);
+}
+.hero8 p{
+    padding: 10px 0px;
+}
+.hero8 p a{
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15.84px;
+font-weight: 700;
+line-height: 23.76px;
+    color:#D5D0CF;
+    text-decoration:none;
+}
+.hero8 a:hover{
+    color:rgb(255, 199, 38)
+}
+.hero8 p span{
+    color:#D0C590;
+}
+.hero8 p span:hover{
+    color: rgb(255, 199, 38);
+    cursor: pointer;
+}
+.hero9{
+    margin-top: 50px;
+}
+.hero9 h2{
+     margin-top: 20px;
+     color:#D5D0CF;
+    font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 31.5px;
+font-weight: 700;
+line-height: 36.225px;
+}
+.hero9 h2:hover{
+    color: rgb(255, 199, 38);
+}
+.hero9 p{
+    padding: 10px 0px;
+}
+.hero9 p a{
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15.84px;
+font-weight: 700;
+line-height: 23.76px;
+    color:#D5D0CF;
+    text-decoration:none;
+}
+.hero9 a:hover{
+    color:rgb(255, 199, 38)
+}
+.hero9 p span{
+    color:#D0C590;
+}
+.hero9 p span:hover{
+    color: rgb(255, 199, 38);
+    cursor: pointer;
+}
+.hero10{
+    margin-top: 50px;
+}
+.hero10 h2{
+     margin-top: 20px;
+     color:#D5D0CF;
+    font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 31.5px;
+font-weight: 700;
+line-height: 36.225px;
+}
+.hero10 h2:hover{
+    color: rgb(255, 199, 38);
+}
+.hero10 p{
+    padding: 10px 0px;
+}
+.hero10 p a{
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15.84px;
+font-weight: 700;
+line-height: 23.76px;
+    color:#D5D0CF;
+    text-decoration:none;
+}
+.hero10 a:hover{
+    color:rgb(255, 199, 38)
+}
+.hero10 p span{
+    color:#D0C590;
+}
+.hero10 p span:hover{
+    color: rgb(255, 199, 38);
+    cursor: pointer;
+}
+.hero11{
+    margin-top: 50px;
+}
+.hero11 h2{
+     margin-top: 20px;
+     color:#D5D0CF;
+    font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 31.5px;
+font-weight: 700;
+line-height: 36.225px;
+}
+.hero11 h2:hover{
+    color: rgb(255, 199, 38);
+}
+.hero11 p{
+    padding: 10px 0px;
+}
+.hero11 p a{
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15.84px;
+font-weight: 700;
+line-height: 23.76px;
+    color:#D5D0CF;
+    text-decoration:none;
+}
+.hero11 a:hover{
+    color:rgb(255, 199, 38)
+}
+.hero11 p span{
+    color:#D0C590;
+}
+.hero11 p span:hover{
+    color: rgb(255, 199, 38);
+    cursor: pointer;
+}
+.hero12{
+    margin-top: 50px;
+}
+.hero12 h2{
+     margin-top: 20px;
+     color:#D5D0CF;
+    font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 31.5px;
+font-weight: 700;
+line-height: 36.225px;
+}
+.hero12 h2:hover{
+    color: rgb(255, 199, 38);
+}
+.hero12 p{
+    padding: 10px 0px;
+}
+.hero12 p a{
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15.84px;
+font-weight: 700;
+line-height: 23.76px;
+    color:#D5D0CF;
+    text-decoration:none;
+}
+.hero12 a:hover{
+    color:rgb(255, 199, 38)
+}
+.hero12 p span{
+    color:#D0C590;
+}
+.hero12 p span:hover{
+    color: rgb(255, 199, 38);
+    cursor: pointer;
+}
