@@ -1,0 +1,251 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    background-color: rgb(32, 19, 19);
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 100%;
+    padding: 20px;
+}
+
+.navbar ul li {
+    padding: 0 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: "Jet Brains", Monaco, Consolas, "Lucida Console", monospace;
+    font-size: 14.84px;
+    font-weight: 700;
+    line-height: 18.216px;
+    color: rgb(234, 230, 228);
+}
+
+/* Home stays on the left */
+.navbar .middle1 {
+    margin-right: auto;
+}
+
+/* Center links */
+.navbar .middle {
+    margin: 0 10px;
+}
+
+/* Get started stays on the right */
+.navbar .middle2 {
+    margin-left: auto;
+}
+.navbar .middle2 a{
+    background-color: rgb(224, 49, 49);
+    color: rgb(234, 230, 228);
+    padding: 10px 20px;
+    border-radius: 25px;
+}
+.hero{
+    margin: 50px 25%;
+    padding: 20px;
+}
+.hero h1{
+    font-family: "Jet Brains", Monaco, Consolas, "Lucida Console", monospace;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 61.5px;
+    color: rgb(234, 230, 228);
+}
+.hero p{
+    font-family: "Jet Brains", Monaco, Consolas, "Lucida Console", monospace;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.6px;
+    color: rgb(234, 230, 228);
+}
+.hero p a{
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 27px;
+font-weight: 400;
+line-height: 40.5px;
+color: rgb(255, 212, 89);
+}
+hr{
+    margin: 50px 0px;
+}
+.hero1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero1 div{
+    padding: 20px;
+    border: 1px solid #443735;
+    border-radius: 25px;
+}
+
+.hero1 div a{
+    font-family: "Jet Brains", Monaco, Consolas, "Lucida Console", monospace;
+font-size: 18px;
+font-weight: 700;
+line-height: 18px;
+color: rgb(255, 255, 255);
+text-decoration: none;
+}
+.hero1 div:hover{
+    background-color: #FEE6A2;
+    color:  rgb(32, 19, 19);
+}
+.hero1 div a:hover{
+    color:  rgb(32, 19, 19);
+}
+.hero1 .sub1{
+    background-color: #FFC726;
+    padding: 15px;
+    border-radius: 25px;
+    color: rgb(32, 19, 19);
+}
+.hero1 .sub1 a{
+    font-family: "Jet Brains", Monaco, Consolas, "Lucida Console", monospace;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    color:  rgb(32, 19, 19);
+    text-decoration: none;
+
+}
+.hero1 .sub1 a:hover{
+    font-family: "Jet Brains", Monaco, Consolas, "Lucida Console", monospace;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    color:  rgb(32, 19, 19);
+    text-decoration: none;
+}
+.hero1 .sub1:hover{
+    background-color: #FFC726;
+    color:  rgb(32, 19, 19);
+}
+.hero1 .sub5{
+    border:none;
+}
+.hero1 .sub5 a{
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 22.5px;
+    font-weight: 400;
+    line-height: 38.25px;
+    color:   rgb(255, 255, 255);
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+
+}
+.hero1 .sub5:hover{
+    background-color:  rgb(32, 19, 19);
+    color:  rgb(32, 19, 19);
+}
+.hero1 .sub5 a:hover{
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 22.5px;
+font-weight: 400;
+line-height: 38.25px;
+color: rgb(255, 199, 38);
+   text-decoration:none;
+
+}
+.hero2{
+    
+    padding: 20px;
+}
+.hero2 span{
+    color:#FFE7A3;
+}
+.hero2 .pub1{
+    margin-top: 20px;
+
+}
+.hero2 h2{
+    color:#D5D0CF;
+    font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 31.5px;
+font-weight: 700;
+line-height: 36.225px;
+}
+.hero2 h2:hover{
+    color: rgb(255, 199, 38);
+}
+.hero2 p{
+    padding: 10px 0px;
+}
+.hero2 .pub2 a{
+    font-family: PPMori, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 15.84px;
+font-weight: 700;
+line-height: 23.76px;
+
+    color:#D5D0CF;
+    text-decoration:none;
+}
+.hero2 .pub2 a:hover{
+    color:rgb(255, 199, 38)
+}
+.hero3{
+    background-color:#2F1C1C;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    margin-top: 100px;
+}
+.hero3 .hero3main{
+    margin:0 50px;
+}
+.hero3 h2{
+    font-family: Cosmica, "Helvetica Neue", Helvetica, Arial, sans-serif;
+font-size: 31.5px;
+font-weight: 700;
+line-height: 40.95px;
+color: rgb(250, 249, 249);
+}
+.hero3 .parentq{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.hero3 .hero3main .parentq .qub1 p{
+    font-family: "Jet Brains", Monaco, Consolas, "Lucida Console", monospace;
+font-size: 18px;
+font-weight: 400;
+line-height: 30.6px;
+color: rgb(234, 230, 228);
+}
+.hero3 .hero3main .parentq .qub1 input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #D5D0CF;
+    background-color: transparent;
+    margin-left: 0px;
+    padding-right: 300px;
+}
+.hero3 .hero3main .parentq .qub1 input:focus{
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #D5D0CF;
+    background-color: transparent;
+    margin-left: 0px;
+    padding-right: 300px;
+}
+input:
